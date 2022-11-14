@@ -11,10 +11,10 @@ const MakeAppointment = () => {
         <div className='flex-1 hidden lg:block'>
             <img className='mt-[-100px]' src={doctor} alt="" />
         </div>
-        <div className='flex-1'>
+        <div className='flex-1 px-5'>
           <h3 className='text-xl text-primary font-bold'>Appointment</h3>
-          <h2 className='text-3xl text-white'>Make an Appointment Today</h2>
-          <p className='text-white'>Just like any business, your medical office should not waste valuable time or spend money on ineffective marketing tactics. Why manually contact patients when you may just be ignored? Medical and dental appointment reminder text messages cut down on phone time and lower your overhead.Overbooking can lead to patient dissatisfaction. Leaving unfilled openings, on the other hand, can have a serious effect on productivity and revenue. Want to find out just how much money your practice can be losing due to no-shows? </p>
+          <h2 className='text-3xl text-white py-5'>Make an Appointment Today</h2>
+          <p className='text-white pb-5'>Just like any business, your medical office should not waste valuable time or spend money on ineffective marketing tactics. Why manually contact patients when you may just be ignored? Medical and dental appointment reminder text messages cut down on phone time and lower your overhead.Overbooking can lead to patient dissatisfaction. Leaving unfilled openings, on the other hand, can have a serious effect on productivity and revenue. Want to find out just how much money your practice can be losing due to no-shows? </p>
           <PrimaryButton>Get Started</PrimaryButton>
         </div>
     </section>
